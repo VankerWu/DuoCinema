@@ -1,0 +1,26 @@
+name: Bug 反馈
+description: 报告可重现的问题
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "请不要在截图或日志中公开云盘密码、服务器私人地址和影片敏感信息。"
+  - type: input
+    id: device
+    attributes:
+      label: 设备 / 系统
+      description: 例如 iPhone Duo 外屏 / iOS 27.1
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果与实际结果
+    validations:
+      required: true

@@ -1,0 +1,112 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 60;
+ objects = {
+/* Begin PBXBuildFile section */
+ 3B22CA33670E584F1B397C7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCCB4911344C6A58D84A660 /* ContentView.swift */; };
+ DB19FE6EC9C54F5C708A990E /* DuoCinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD253E456C54CA7FAFB47E18 /* DuoCinemaApp.swift */; };
+ ECBC1E16645EEFD8DD4A13FC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9243CFF6D9CF91CCA83F3BE6 /* PrivacyInfo.xcprivacy */; };
+ 4C6694D214BFFD428442D292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EEF7BCA351CD906020CF42 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+ 8FCCB4911344C6A58D84A660 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+ FD253E456C54CA7FAFB47E18 /* DuoCinemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoCinemaApp.swift; sourceTree = "<group>"; };
+ 475F0962F3138563A91A1325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+ 9243CFF6D9CF91CCA83F3BE6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+ 62EEF7BCA351CD906020CF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+ 52C1956D8F19F8CE10F18EAE /* DuoCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+ FAAD1D426C91386A9A5CC57E /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+ ECF728D04AB5FCA4C5061C2E = {isa = PBXGroup; children = (7F434332D033360A9DF0D132 /* DuoCinema */, 001B0DCB2AB5C5053BA315E9 /* Products */); sourceTree = "<group>"; };
+ 7F434332D033360A9DF0D132 /* DuoCinema */ = {isa = PBXGroup; children = (FD253E456C54CA7FAFB47E18 /* DuoCinemaApp.swift */, 8FCCB4911344C6A58D84A660 /* ContentView.swift */, 475F0962F3138563A91A1325 /* Info.plist */, 9243CFF6D9CF91CCA83F3BE6 /* PrivacyInfo.xcprivacy */, 62EEF7BCA351CD906020CF42 /* Assets.xcassets */); path = DuoCinema; sourceTree = "<group>"; };
+ 001B0DCB2AB5C5053BA315E9 /* Products */ = {isa = PBXGroup; children = (52C1956D8F19F8CE10F18EAE /* DuoCinema.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+ 41DF0737A0A7E32E53D7A77C /* DuoCinema */ = {
+   isa = PBXNativeTarget;
+   buildConfigurationList = 5D398B52F36767EFDE1554A4 /* Build configuration list for PBXNativeTarget "DuoCinema" */;
+   buildPhases = (B3C96988A895C2C3D25E0630 /* Sources */, FAAD1D426C91386A9A5CC57E /* Frameworks */, 2F704ED81D17EC457AC1879D /* Resources */);
+   buildRules = ();
+   dependencies = ();
+   name = DuoCinema;
+   productName = DuoCinema;
+   productReference = 52C1956D8F19F8CE10F18EAE /* DuoCinema.app */;
+   productType = "com.apple.product-type.application";
+ };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+ 72B87494A592ACD125E583D9 /* Project object */ = {
+   isa = PBXProject;
+   attributes = {
+     BuildIndependentTargetsInParallel = 1;
+     LastUpgradeCheck = 1600;
+     TargetAttributes = { 41DF0737A0A7E32E53D7A77C = {CreatedOnToolsVersion = 16.0; ProvisioningStyle = Automatic; }; };
+   };
+   buildConfigurationList = A1FAFFAD79995DE77B283946 /* Build configuration list for PBXProject "DuoCinema" */;
+   compatibilityVersion = "Xcode 15.0";
+   developmentRegion = zh_CN;
+   hasScannedForEncodings = 0;
+   knownRegions = (en, zh_CN, Base);
+   mainGroup = ECF728D04AB5FCA4C5061C2E;
+   productRefGroup = 001B0DCB2AB5C5053BA315E9 /* Products */;
+   projectDirPath = "";
+   projectRoot = "";
+   targets = (41DF0737A0A7E32E53D7A77C /* DuoCinema */);
+ };
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+ 2F704ED81D17EC457AC1879D /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (4C6694D214BFFD428442D292 /* Assets.xcassets in Resources */, ECBC1E16645EEFD8DD4A13FC /* PrivacyInfo.xcprivacy in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+ B3C96988A895C2C3D25E0630 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (DB19FE6EC9C54F5C708A990E /* DuoCinemaApp.swift in Sources */, 3B22CA33670E584F1B397C7D /* ContentView.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+ 31EE284E6822A44E41355BFB /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_OPTIMIZATION_LEVEL = 0; SDKROOT = iphoneos; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+ C05912FBB51BF930BEAED7F9 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+ B0F15CFE5094B46B2504734B /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+    ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+    CODE_SIGN_STYLE = Automatic;
+    CURRENT_PROJECT_VERSION = 18;
+    GENERATE_INFOPLIST_FILE = NO;
+    INFOPLIST_FILE = DuoCinema/Info.plist;
+    IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+    MARKETING_VERSION = 0.18.0;
+    PRODUCT_BUNDLE_IDENTIFIER = com.example.duocinema;
+    PRODUCT_NAME = "$(TARGET_NAME)";
+    SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+    SWIFT_EMIT_LOC_STRINGS = YES;
+    SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+    SWIFT_VERSION = 5.0;
+    SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+    SUPPORTS_MACCATALYST = NO;
+    TARGETED_DEVICE_FAMILY = 1;
+  }; name = Debug; };
+ 775951BA410C8B206C1ED5B8 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+    ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+    CODE_SIGN_STYLE = Automatic;
+    CURRENT_PROJECT_VERSION = 18;
+    GENERATE_INFOPLIST_FILE = NO;
+    INFOPLIST_FILE = DuoCinema/Info.plist;
+    IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+    MARKETING_VERSION = 0.18.0;
+    PRODUCT_BUNDLE_IDENTIFIER = com.example.duocinema;
+    PRODUCT_NAME = "$(TARGET_NAME)";
+    SWIFT_EMIT_LOC_STRINGS = YES;
+    SWIFT_VERSION = 5.0;
+    SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+    SUPPORTS_MACCATALYST = NO;
+    TARGETED_DEVICE_FAMILY = 1;
+  }; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+ A1FAFFAD79995DE77B283946 /* Build configuration list for PBXProject "DuoCinema" */ = {isa = XCConfigurationList; buildConfigurations = (31EE284E6822A44E41355BFB /* Debug */, C05912FBB51BF930BEAED7F9 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ 5D398B52F36767EFDE1554A4 /* Build configuration list for PBXNativeTarget "DuoCinema" */ = {isa = XCConfigurationList; buildConfigurations = (B0F15CFE5094B46B2504734B /* Debug */, 775951BA410C8B206C1ED5B8 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+ };
+ rootObject = 72B87494A592ACD125E583D9 /* Project object */;
+}

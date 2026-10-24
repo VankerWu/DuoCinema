@@ -1,0 +1,31 @@
+# Xcode project ephemeral data
+.DS_Store
+*.xcuserstate
+**/xcuserdata/
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.app
+*.dSYM/
+*.dSYM.zip
+*.mobileprovision
+*.p12
+*.cer
+*.pem
+*.key
+*.entitlements.user
+# Private local configuration
+.env
+.env.*
+Secrets.*
+credentials.*
+# User-owned media and temporary downloads
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.avi
+*.mp3
+*.m4a
+.cache/
